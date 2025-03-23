@@ -11,6 +11,21 @@ header{
     border-bottom: 1px solid black;
 }
 
+div.contato{
+    background-image: linear-gradient(to bottom, rgb(16, 169, 216), rgb(14, 103, 219));
+    height: 40px;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+div.contato > h3 {
+    color: black;
+    font-weight: bolder;
+    font-size: 15px;
+    align-self: center;
+}
+
 section.topo{
     height: 80px;
     margin: auto;
@@ -41,10 +56,15 @@ main{
 }
 
 footer {
-    text-align: center;
-    padding: 10px;
-    background: white;
+    background-color: white;
     color: black;
+    
+    padding: 10px;
+
+    text-align: center;
+    font-weight: bolder;
+
     border-top: 1px solid black;
+
     
 }
