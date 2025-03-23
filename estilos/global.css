@@ -18,6 +18,8 @@ div.contato{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
+
+    border-bottom: 1px solid black;
 }
 div.contato > h3 {
     color: black;
