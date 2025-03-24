@@ -54,9 +54,55 @@ section.topo > h1{
 
 main{
     background-image: linear-gradient(to bottom, rgb(16, 169, 216), rgb(14, 103, 219));
-    height: 100vh;
+    
 }
 
+section.corpo{
+    width: 60vw;
+    margin: auto;
+
+}
+div.manutencao{
+    
+    
+    padding: 10px;
+    margin: auto;
+
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+img{
+    max-width: 500px;
+    padding: 5px;
+    margin: 5px;
+    
+    border-radius: 10px;
+}
+h3.acao{
+    
+    
+    margin: 5px;
+    padding: 5px;
+    
+    text-align: center;
+}
+h2.acao{
+   
+    
+    margin: 5px;
+    padding: 5px;
+    
+    text-align: center;
+}
+
+p.texto{
+    
+    margin: 5px;
+    padding: 5px;
+
+    text-align: justify;
+}
 footer {
     background-color: white;
     color: black;
