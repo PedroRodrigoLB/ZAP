@@ -22,9 +22,9 @@ div.contato{
     border-bottom: 1px solid black;
 }
 div.contato > h3 {
-    color: black;
+    color: white;
     font-weight: bolder;
-    font-size: 15px;
+    font-size: 70%;
     align-self: center;
 }
 
@@ -91,7 +91,7 @@ h2.acao{
     padding: 5px;
     
     text-align: center;
-    font-size: 80%;
+    font-size: 90%;
     font-weight: bolder;
     
 
@@ -101,7 +101,7 @@ h3.acao{
     padding: 5px;
     
     text-align: center;
-    font-size: 70%;
+    font-size: 80%;
     font-weight: bolder;
 
 }
@@ -113,7 +113,7 @@ p.texto{
     padding: 5px;
 
     text-align: justify;
-    font-size: 60%;
+    font-size: 80%;
     
 }
 
