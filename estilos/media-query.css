@@ -10,6 +10,10 @@ Grandes telas: acima de 1200px
 */
 
 @media screen and (min-width: 768px) {
+    section.topo{
+        width: 80vw;
+    }
+    
     main{
         min-height: 98vh;
     }
@@ -31,7 +35,7 @@ Grandes telas: acima de 1200px
         max-height: 200px;
     }
 
-    
+
 }
 
 @media screen and (min-width: 992px){
