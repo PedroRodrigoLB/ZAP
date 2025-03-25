@@ -10,28 +10,34 @@ Grandes telas: acima de 1200px
 */
 
 @media screen and (min-width: 768px) {
+    main{
+        min-height: 98vh;
+    }
     
     section.corpo{
-        width: 60vw;
-        margin: auto;
-    
-    }
+        width: 80vw;
 
-    div.manutencao{
+    }
     
     
-        padding: 10px;
-        margin: auto;
-    
+    div.fotos{
         display: flex;
-        flex-flow: row nowrap;
-        align-items: center;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        
     }
-
-
-    
 
     div.fotos > img{
-        width: 300px;
+        max-height: 200px;
     }
+
+    
+}
+
+@media screen and (min-width: 992px){
+    section.corpo{
+        width: 900px;
+    }
+
+
 }
