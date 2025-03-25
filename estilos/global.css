@@ -18,8 +18,7 @@ div.contato{
     flex-flow: row nowrap;
     justify-content: space-around;
 
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    
 }
 div.contato > h3 {
     color: white;
@@ -53,10 +52,11 @@ section.topo > h1{
     text-shadow: 1px 1px 2px black;
 }
 
-
+main{
+    background-color: rgba(211, 211, 211, 0.295);
+}
 
 section.corpo{
-    width: 60vw;
     margin: auto;
 
 }
@@ -70,9 +70,9 @@ div.fotos{
 
 div.fotos > img {
     background-color: white;
-    width: 100%;
+    max-width: 300px;
     margin: 10px;
-    padding: 2px;
+    padding: 5px;
 
     border: 1px solid lightgray;
     border-radius: 10px;
@@ -119,8 +119,8 @@ p.texto{
 }
 
 footer {
-    background-image: linear-gradient(to bottom, rgb(16, 169, 216), rgb(14, 103, 219));
-    color: black;
+    background-color: rgba(24, 25, 26, 0.753);
+    color: white;
     
     padding: 10px;
 
