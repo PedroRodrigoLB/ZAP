@@ -52,49 +52,60 @@ section.topo > h1{
     text-shadow: 1px 1px 2px black;
 }
 
-main{
-    background-image: linear-gradient(to bottom, rgb(16, 169, 216), rgb(14, 103, 219));
-    
-}
+
 
 section.corpo{
     width: 60vw;
     margin: auto;
 
 }
-div.manutencao{
-    
-    
-    padding: 10px;
-    margin: auto;
 
+div.fotos{
+    
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: column nowrap;
     align-items: center;
 }
-img{
-    max-width: 150px;
-    padding: 5px;
-    margin: 5px;
-    
+
+div.fotos > img {
+    background-color: white;
+    width: 100%;
+    margin: 10px;
+    padding: 2px;
+
+    border: 1px solid lightgray;
     border-radius: 10px;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.61);
+}
+
+div.manutencao{
+    
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+}
+   
+
+h2.acao{
+    margin: 5px;
+    padding: 5px;
+    
+    text-align: center;
+    font-size: 80%;
+    font-weight: bolder;
+    
+
 }
 h3.acao{
-    
-    
     margin: 5px;
     padding: 5px;
     
     text-align: center;
+    font-size: 70%;
+    font-weight: bolder;
+
 }
-h2.acao{
-   
-    
-    margin: 5px;
-    padding: 5px;
-    
-    text-align: center;
-}
+
 
 p.texto{
     
@@ -102,7 +113,10 @@ p.texto{
     padding: 5px;
 
     text-align: justify;
+    font-size: 60%;
+    
 }
+
 footer {
     background-color: white;
     color: black;
@@ -114,5 +128,5 @@ footer {
 
     border-top: 1px solid black;
 
-    
+   
 }
