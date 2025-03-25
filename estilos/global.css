@@ -53,7 +53,7 @@ section.topo > h1{
 }
 
 main{
-    background-color: rgba(211, 211, 211, 0.295);
+    background-color: rgba(211, 211, 211, 0.747);
 }
 
 section.corpo{
@@ -83,7 +83,9 @@ div.manutencao{
     
     text-align: center;
     padding: 10px;
-    margin: auto;
+    margin: 0px 15px;
+
+    border-top: 1px solid rgba(211, 211, 211, 0.534);
 }
    
 
