@@ -25,6 +25,7 @@ div.contato > h3 {
     color: white;
     font-weight: bolder;
     font-size: 70%;
+    text-shadow: 0px 0px 5px black;
     align-self: center;
 }
 
