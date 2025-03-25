@@ -6,35 +6,18 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 header{
-    
     background-color: white;
 }
 
-div.contato{
-    background-image: linear-gradient(to bottom, rgb(16, 169, 216), rgb(14, 103, 219));
-    height: 40px;
-
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-around;
-
-    
-}
-div.contato > h3 {
-    color: white;
-    font-weight: bolder;
-    font-size: 70%;
-    text-shadow: 0px 0px 5px black;
-    align-self: center;
-}
 
 section.topo{
+    width: 80vw;
     height: 80px;
     margin: auto;
     
     display: flex;
     flex-flow: row nowrap;
-    align-content: center;    
+    justify-content: center;    
 }
 
 section.topo > img{
@@ -44,12 +27,29 @@ section.topo > img{
 }
 
 section.topo > h1{
-    color: black;
+    color: #01403A;
     padding: 5px;
     margin: auto;
     
     font-size: 2em;
     text-shadow: 1px 1px 2px black;
+}
+
+div.contato{
+    background-color: #01403A;
+    height: 40px;
+    
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
+div.contato > h3 {
+    color: white;
+    font-weight: bolder;
+    font-size: 70%;
+    text-shadow: 0px 0px 5px black;
+    align-self: center;
 }
 
 main{
@@ -58,7 +58,7 @@ main{
 
 section.corpo{
     margin: auto;
-
+    
 }
 div.fotos{
     
