@@ -77,6 +77,10 @@ Grandes telas: acima de 1200px
         justify-content: center;
     }
 
+    section.extra > div.apontamento > h3{
+        display: none;
+    }
+
 
     div.entrega > div.garantia{
         padding: 10px;
