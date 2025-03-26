@@ -55,7 +55,19 @@ Grandes telas: acima de 1200px
         width: 900px;
     }
 
-    
+    section.extra{
+        width: 80vw;
+        margin: 30px auto;
+
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+    }
+
+
+    div.entrega > div.garantia{
+        padding: 10px;
+    }
 }
 
 @media screen and (min-width:1200px){
@@ -73,6 +85,7 @@ Grandes telas: acima de 1200px
         height: 680px;
     }
     
+
 }
 
 @media screen and (min-width: 1600px){

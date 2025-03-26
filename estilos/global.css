@@ -171,9 +171,130 @@ aside.cartoes > div.cartao > p.texto{
 
 
 
+div.apontamento{
+    width: 500px;
+    
+    padding: 5px;
+    margin: auto;
+}
+
+div.apontamento > h2.servico{
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+
+    font-size: 1.8em;
+    font-weight: bolder;
+}
+
+div.apontamento > h3.disposicao{
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+
+    font-size: 1.2em;
+}
+
+div.entrega{
+    width: 500px;
+    
+    padding: 5px;
+    margin: auto;
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+div.entrega > div.garantia{
+    margin: 10px;
+    border: 2px solid #01403A;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px #01403A;
+}   
+
+div.entrega > div.garantia > p{
+    width: 300px;
+    
+    padding: 10px;
+    margin: 10px;         
+    
+    
+    font-weight: bolder;
+    text-align: center;
+}
+
+section.pergunta{
+    width: 80vw;
+    padding: 5px;
+    margin: auto;
+    
+    border-top: 1px solid lightgray;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+}
+
+section.pergunta > img{
+    margin: 10px auto;
+    width: 300px;
+    align-self: center;
+}
+
+section.pergunta > h2.duvida{
+    width: 280px;
+    margin: 20px auto;
+    align-self: center;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+section.justificativa{
+    background-color: #01403A;
+    margin: auto;
+    padding: 20px;
+    
+    box-shadow: 0px 0px 3px #01403A;
+
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+section.justificativa > div.diferencial{
+    background-color: white;
+    width: 180px;
+    height: 180px;
+    
+    padding: 5px;
+    margin: 10px;
+    align-self: center;
+
+    border: 2px solid darkgray;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.61);
+}
+
+section.justificativa > div.diferencial > h2{
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+section.justificativa > div.diferencial > p{
+    text-align: center;
+}
+
+
 footer {
-    background-color: rgba(24, 25, 26, 0.753);
-    color: white;
+    background-color: white;
+    color: black;
     
     padding: 10px;
 
