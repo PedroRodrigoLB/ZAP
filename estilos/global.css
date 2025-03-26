@@ -56,7 +56,7 @@ main{
     background-color: rgba(211, 211, 211, 0.747);
 }
 
-section.corpo{
+section.exemplo{
     margin: auto;
     
 }
@@ -77,6 +77,24 @@ div.fotos > img {
     border: 1px solid lightgray;
     border-radius: 10px;
     box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.61);
+}
+section.topico{
+    text-align: center;
+    margin: auto;
+}
+
+section.topico > h2.subtopico{
+    color: #01403A;
+    padding: 5px;
+    margin: 10px;
+    font-size: 2em;
+    text-shadow: 0px 0px 1px black;
+    
+}
+
+section.topico > h3.dados{
+    padding: 5px;
+    margin: 5px;
 }
 
 section.informativo{
@@ -133,7 +151,7 @@ aside.cartoes > div.cartao{
     margin: 10px;
 
 
-    border: 2px solid #01403a;
+    border: 2px solid darkgray;
     border-radius: 10px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.61);
 

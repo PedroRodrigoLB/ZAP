@@ -18,7 +18,7 @@ Grandes telas: acima de 1200px
         min-height: 98vh;
     }
     
-    section.corpo{
+    section.exemplo{
         width: 80vw;
 
     }
@@ -34,6 +34,10 @@ Grandes telas: acima de 1200px
     div.fotos > img{
         max-height: 200px;
     }
+    
+    aside.chamada{
+        justify-content: space-evenly;
+    }
 
     aside.chamada > h1.resposta{
         font-size: 1.5em;
@@ -47,9 +51,41 @@ Grandes telas: acima de 1200px
 }
 
 @media screen and (min-width: 992px){
-    section.corpo{
+    section.exemplo{
         width: 900px;
     }
 
+    
+}
 
+@media screen and (min-width:1200px){
+    aside.chamada > h1.pergunta{
+        width: 500px;
+    }
+    
+    aside.chamada > h1.resposta{
+        width: 500px;
+        
+    }
+    
+    
+    aside.cartoes{
+        height: 680px;
+    }
+    
+}
+
+@media screen and (min-width: 1600px){
+    aside.chamada > h1.pergunta{
+        width: 650px;
+    }
+    
+    aside.chamada > h1.resposta{
+        width: 650px;
+        
+    }
+    
+    aside.cartoes{
+        height: 550px;
+    }
 }
