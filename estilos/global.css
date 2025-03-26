@@ -90,6 +90,7 @@ section.topico > h2.subtopico{
 section.topico > h3.dados{
     padding: 5px;
     margin: 5px;
+    font-size: 1.3em;
 }
 
 section.informativo{
