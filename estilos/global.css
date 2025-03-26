@@ -171,8 +171,9 @@ aside.cartoes > div.cartao > p.texto{
 
 
 
+
 div.apontamento{
-    width: 500px;
+    max-width: 500px;
     
     padding: 5px;
     margin: auto;
@@ -183,7 +184,7 @@ div.apontamento > h2.servico{
     margin: 10px;
     text-align: center;
 
-    font-size: 1.8em;
+    font-size: 1.5em;
     font-weight: bolder;
 }
 
@@ -191,8 +192,8 @@ div.apontamento > h3.disposicao{
     padding: 5px;
     margin: 10px;
     text-align: center;
-
-    font-size: 1.2em;
+    font-size: 1.1em;
+    border-top: 1px solid lightgray
 }
 
 div.entrega{
