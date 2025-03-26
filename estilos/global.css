@@ -52,6 +52,10 @@ div.contato > h3 {
     align-self: center;
 }
 
+div.contato > h3 > a{
+    text-decoration: none;
+    color: white;
+}
 
 section.exemplo{
     margin: auto;
@@ -174,7 +178,7 @@ aside.cartoes > div.cartao > p.texto{
 
 
 div.apontamento{
-    max-width: 500px;
+    max-width: 400px;
     
     padding: 5px;
     margin: auto;
@@ -198,7 +202,7 @@ div.apontamento > h3.disposicao{
 }
 
 div.entrega{
-    width: 500px;
+    max-width: 500px;
     
     padding: 5px;
     margin: auto;
