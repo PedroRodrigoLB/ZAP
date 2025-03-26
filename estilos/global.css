@@ -14,6 +14,7 @@ section.topo{
     height: 80px;
     margin: auto;
     
+    
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;    
@@ -78,47 +79,84 @@ div.fotos > img {
     box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.61);
 }
 
-div.manutencao{
+section.informativo{
+    background-color: #01403A;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.808);
     
-    text-align: center;
-    padding: 10px;
-    margin: 0px 15px;
-
-    box-shadow: 0px -2px 0px rgba(255, 255, 255, 0.486);
-    border-top: 2px solid rgba(211, 211, 211, 0.534);
 }
-   
 
-h2.acao{
-    margin: 5px;
+aside.chamada{
+    color: white;
     padding: 5px;
-    
-    text-align: center;
-    font-size: 90%;
-    font-weight: bolder;
-    
+    margin: 10px;
 
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
 }
-h3.acao{
-    margin: 5px;
+
+aside.chamada > h1.pergunta{
+    width: 300px;
+    margin: 10px;
+    
+    font-size: 2em;
+    
+    align-self: center;
+}
+
+aside.chamada > h1.resposta{
+    width: 300px;
+    margin: 10px;
+    
+    font-size: 1em;
+
+    align-self: center;
+}
+
+aside.cartoes{
+    color: black;
+    width: 80vw;
     padding: 5px;
-    
-    text-align: center;
-    font-size: 80%;
-    font-weight: bolder;
+    margin: auto;
 
+    border-top: 1px solid lightgray;
+    
+    display: flex;
+    flex-flow: column wrap;
 }
 
-
-p.texto{
-    
-    margin: 5px;
+aside.cartoes > div.cartao{
+    background-color:white;
+    width: 300px;
+    height: 160px;
     padding: 5px;
+    margin: 10px;
 
-    text-align: justify;
-    font-size: 80%;
-    
+
+    border: 2px solid #01403a;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.61);
+
+    align-self: center;
+
 }
+
+aside.cartoes > div.cartao > h2.tema{
+    padding: 5px;
+    margin: 5px;
+    
+    
+    font-size: 1.3em;
+}
+
+aside.cartoes > div.cartao > p.texto{
+    padding: 5px;
+    margin: 5px;
+    
+    font-size: 0.8em;
+}
+
+
 
 footer {
     background-color: rgba(24, 25, 26, 0.753);
